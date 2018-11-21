@@ -6,7 +6,7 @@ function grouping_count(collection) {
   let result = {};
 
   //implement here
-  collection.forEach(element => {
+  collection.filter(element => {
     if (result[element] != null) {
       result[element] += 1;
     } else {
